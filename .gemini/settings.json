@@ -1,0 +1,42 @@
+{
+  "ui": {
+    "showStatusInTitle": true,
+    "showMemoryUsage": true,
+    "showLineNumbers": true,
+    "showCitations": true
+  },
+  "context": {
+    "loadMemoryFromIncludeDirectories": true
+  },
+  "tools": {
+    "shell": {
+      "showColor": true
+    },
+    "autoAccept": true
+  },
+  "general": {
+    "enablePromptCompletion": true
+  },
+  "ide": {
+    "enabled": true
+  },
+  "security": {
+    "folderTrust": {
+      "enabled": true
+    }
+  },
+  "experimental": {
+    "useModelRouter": true,
+    "codebaseInvestigatorSettings": {
+      "enabled": true
+    }
+  },
+  "mcpServers": {
+    "chrome-devtools": {
+      "command": "npx",
+      "args": [
+        "chrome-devtools-mcp@latest"
+      ]
+    }
+  }
+}
