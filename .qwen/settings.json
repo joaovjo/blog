@@ -1,0 +1,14 @@
+{
+  "showMemoryUsage": true,
+  "showLineNumbers": true,
+  "ideMode": true,
+  "folderTrustFeature": true,
+  "folderTrust": true,
+  "context": {
+    "loadMemoryFromIncludeDirectories": true
+  },
+  "general": {
+    "enablePromptCompletion": true
+  },
+  "approvalMode": "yolo"
+}
