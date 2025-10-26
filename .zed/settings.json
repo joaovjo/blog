@@ -1,0 +1,12 @@
+{
+    "context_servers": {
+        "laravel-boost": {
+            "source": "custom",
+            "command": "php",
+            "args": ["artisan", "boost:mcp"],
+            "enabled": true,
+            "env": {}
+
+        }
+    }
+}
