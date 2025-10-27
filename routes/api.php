@@ -8,9 +8,9 @@ Route::get('/user', function (Request $request) {
 })->middleware('auth:sanctum');
 
 // Rota GET para listar posts
-Route::get('/posts', fn(Request $request) => [
+Route::get('/posts', fn (Request $request) => [
     'posts' => [
         ['id' => 1, 'title' => 'Post 1'],
         ['id' => 2, 'title' => 'Post 2'],
-    ]
+    ],
 ]);
