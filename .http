@@ -1,1 +1,26 @@
-GET /posts 
+// Variáveis do .env
+@baseUrl = {{$dotenv APP_URL}}
+@apiKey = {{$dotenv API_KEY}}
+@dbName = {{$dotenv DB_DATABASE}}
+
+### GET Request API
+GET {{baseUrl}}/api/posts HTTP/1.1
+X-API-Key: {{apiKey}}
+
+### POST Request API
+POST {{baseUrl}}/api/posts HTTP/1.1
+Content-Type: application/json
+
+{
+  "title": "Test Post",
+  "content": "Content here"
+}
+
+### Com autenticação
+POST {{baseUrl}}/api/login HTTP/1.1
+Content-Type: application/json
+
+{
+  "email": "test@example.com",
+  "password": "password"
+}
